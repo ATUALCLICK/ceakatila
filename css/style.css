@@ -922,7 +922,7 @@ h1, h2, h3, h4, h5, h6 {
    -------------------------------------------------------------------------- */
 .services {
   padding: 90px 0;
-  background: #FFFFFF;
+  background: var(--color-bg-main);
   position: relative;
 }
 
@@ -933,7 +933,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-card {
-  background: var(--color-bg-main);
+  background: #FFFFFF;
   border-radius: var(--radius-lg);
   padding: 28px 22px;
   box-shadow: var(--shadow-sm);
